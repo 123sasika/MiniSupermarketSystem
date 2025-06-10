@@ -1,0 +1,191 @@
+body {
+  background: linear-gradient(to right, #024602, #32cd32);
+  color: white;
+}
+
+.navbar {
+  background-color: #024602;
+}
+.text-center {
+  color: white;
+}
+#add {
+  background-color: yellow;
+  margin-left: 130px;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+#add:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#main {
+  background-color: yellow;
+  margin-left: 130px;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+#main:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#MainBtn {
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#MainBtn:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#AddProduct {
+  display: block;
+  margin: 10px auto;
+  width: fit-content;
+  background-color: yellow;
+  padding: 10px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+#AddProduct:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#navlist {
+  gap: 10px;
+  margin-left: 70px;
+}
+
+.mb-2 label {
+  flex: 0 0 130px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.mb-2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mb-2 input {
+  flex: 1;
+  padding: 10px;
+}
+
+#addProductForm {
+  grid-gap: 30px;
+  margin-top: 30px;
+}
+form {
+  border: 4px solid #000;
+  border-radius: 10px;
+  padding: 45px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#table {
+  margin-left: 300px;
+  margin-top: 50px;
+  border: 4px solid #000;
+  border-radius: 10px;
+  padding: 45px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#goBack {
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#goBack:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#Main2 {
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+#Main2:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#delete {
+  background-color: rgb(255, 102, 0);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 500px;
+}
+#delete:hover {
+  background-color: red;
+}
+
+#cancel {
+  background-color: yellow;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-right: 400px;
+}
+#cancel:hover {
+  background-color: blue;
+}
+
+#update1 {
+  background-color: yellow;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+#update1:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#delete2 {
+  background-color: rgb(255, 102, 0);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  font-weight: bold;
+}
+#delete2:hover {
+  background-color: red;
+}
+
+#goBack2 {
+  background-color: yellow;
+}
+
+#update2 {
+  background-color: yellow;
+  margin-left: 130px;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+#update2:hover {
+  background-color: rgb(255, 102, 0);
+}
+
+#goBack2 {
+  background-color: yellow;
+  margin-left: 130px;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+#goBack2:hover {
+  background-color: rgb(255, 102, 0);
+}
