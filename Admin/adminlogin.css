@@ -1,0 +1,47 @@
+body{
+    background-image: url(pexels-caio-64613.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1080px;
+}
+
+
+
+.loginsection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid rgb(0, 0, 0); */
+    padding: 30px;
+    border-radius: 30px;  
+    margin-top: 230PX;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+}
+
+.loginsection h2{
+    color: white;
+}
+
+.t2{
+    color: white;
+}
+
+
+/* .btn{
+    display: flex;
+    flex-direction: column;
+
+} */
+
+.btn{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    margin-top: 30px ;
+    
+}

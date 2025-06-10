@@ -1,0 +1,95 @@
+body {
+    
+    background-image: url(image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1080px;
+      
+    
+}
+#product{
+    display: block;
+    margin: 10px auto;
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+#product:hover{background-color: rgb(255, 102, 0);;}
+
+#list{
+    gap: 10px;
+    margin-left: -155px;
+    margin-top: 100px;
+}
+
+#h4{
+    color: #000;
+
+}
+
+#piechart{
+    margin-top: 150px;
+    margin-right: 300px;
+}
+
+#stock2{
+    border: 4px solid #000;
+    margin-top: 50px;
+    background-color: white;
+    
+}
+
+.stock{
+    
+    margin-top: -700px;
+   
+    margin-right: 300px;
+    margin-left: 60%;
+    
+
+    width: 80%; /* Adjust the width as needed */
+   
+
+   align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically (if height is fixed) */
+    text-align: center;
+    
+    
+    
+    
+}
+.stockName{
+    color:#FFD700;
+}
+.regularcustomer{
+    color: #00FFFF;
+}
+
+.customer{
+   
+    margin-top: -300px;
+    margin-right: 100px;
+    margin-left: 60%;
+    
+
+    width: 80%; /* Adjust the width as needed */
+
+    align-items: center; /* Centers horizontally */
+    justify-content: center; /* Centers vertically (if height is fixed) */
+    text-align: center;
+
+
+
+}
+
+
+
+
